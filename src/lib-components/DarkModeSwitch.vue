@@ -36,7 +36,7 @@ export default defineComponent({
 })
 </script>
 
-<style lang="scss">
+<style>
 /* -------------------------------- 
 
 File#: _1_switch
