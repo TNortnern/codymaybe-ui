@@ -39,7 +39,6 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
 
 `FeatureV9`
 
-```html
 <h2>Form Props</h2>
 <table class="styled-table">
     <thead>
@@ -59,11 +58,9 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
         </tr>
     </tbody>
 </table>
-```
 
 `CodyButton`
 
-```html
 <h2>Form Props</h2>
 <table class="styled-table">
     <thead>
@@ -96,4 +93,3 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
         <tr>
     </tbody>
 </table>
-```
