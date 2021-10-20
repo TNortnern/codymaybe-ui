@@ -9,14 +9,6 @@ import { computed, defineComponent, PropType } from 'vue'
 import { Variant, Size } from '../types'
 export default defineComponent({
   props: {
-    name: {
-      type: String,
-      default: '',
-    },
-    component: {
-      type: String,
-      default: '',
-    },
     variant: {
       type: String as PropType<Variant>,
       default: 'accent',
@@ -26,7 +18,6 @@ export default defineComponent({
       default: '',
     },
     icon: Boolean,
-    text: Boolean,
   },
   setup(props) {
     const classBinds = computed(() => {

@@ -3,7 +3,7 @@
     <div class="grid">
       <div
         v-for="(item, i) in items"
-        :key="item[objectKey]"
+        :key="i"
         class="feature-v9__block col-6@md"
         :style="`background-image: url(${item.image})`"
       >

@@ -34,3 +34,62 @@ import { AppTheme, FeatureV9Item, ... } from 'codehouse-maybe-ui'
 ```javascript
 import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
 ```
+
+## Available components in Codehouse
+
+`FeatureV9`
+
+<h2>Form Props</h2>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Prop</th>
+            <th>Type</th>
+            <th>Default</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>items</td>
+            <td>Array(FeatureV9Item[])</td>
+            <td>() => []</td>
+            <td>Feature list to render</td>
+        </tr>
+    </tbody>
+</table>
+
+`CodyButton`
+
+<h2>Form Props</h2>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Prop</th>
+            <th>Type</th>
+            <th>Default</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>variant</td>
+            <td>String(Variant)</td>
+            <td>accent</td>
+            <td>Variant type the button should render</td>
+        </tr>
+        <tr>
+            <td>size</td>
+            <td>String(Size)</td>
+            <td>''</td>
+            <td>Size the button should render</td>
+        </tr>
+        <tr>
+            <td>icon</td>
+            <td>Boolean</td>
+            <td>false</td>
+            <td>Will the button have a icon?</td>
+        </tr>
+        <tr>
+    </tbody>
+</table>
