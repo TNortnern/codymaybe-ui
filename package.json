@@ -1,6 +1,6 @@
 {
   "name": "codehouse-maybe-ui",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "",
   "main": "dist/codehouse-maybe-ui.ssr.js",
   "browser": "dist/codehouse-maybe-ui.esm.js",
