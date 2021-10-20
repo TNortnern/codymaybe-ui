@@ -27,8 +27,8 @@ app.use(Cody).mount('#app')
 
 ```vue
 <template>
-  <CodyButton variant="subtle">
-  <FeatureV9 :items="items">
+  <CodyButton variant="subtle"></CodyButton>
+  <FeatureV9 :items="items"></FeatureV9>
 </template>
 
 <script>
@@ -65,8 +65,8 @@ export default {
 
 ```vue
 <template>
-  <CodyButton variant="subtle">
-  <FeatureV9 :items="items">
+  <CodyButton variant="subtle" />
+  <FeatureV9 :items="items" />
 </template>
 
 <script>
