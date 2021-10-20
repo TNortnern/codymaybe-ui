@@ -32,8 +32,10 @@ app.use(Cody).mount('#app')
 </template>
 
 <script>
+import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
 export default {
     setup() {
+        const theme = useTheme()
          const items = [
       {
         headerText: "Hello",
@@ -42,7 +44,7 @@ export default {
         description: "Lorem ipsum dolor sit amet consectetur.",
         buttonText: "Shop!!",
         buttonVariant: "primary",
-        action: useTheme().toggleTheme,
+        action: theme.toggleTheme,
       },
       {
         headerText: "Hello2",
@@ -71,8 +73,10 @@ export default {
 
 <script>
 import { FeatureV9Item, Variant } from 'codehouse-maybe-ui'
+import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
 export default {
     setup() {
+        const theme = useTheme()
          const items: FeatureV9Item[] = [
       {
         headerText: "Hello",
@@ -81,7 +85,7 @@ export default {
         description: "Lorem ipsum dolor sit amet consectetur.",
         buttonText: "Shop!!",
         buttonVariant: "primary",
-        action: useTheme().toggleTheme,
+        action: theme.toggleTheme,
       },
       {
         headerText: "Hello2",
