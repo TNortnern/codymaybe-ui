@@ -2,6 +2,7 @@
   <div class="base-container">
     <!-- <Button component="Button" variant="accent"></Button> -->
     <Featurev9 :items="items"> </Featurev9>
+    <DarkModeSwitch variant="accent" />
   </div>
 </template>
 
@@ -10,10 +11,12 @@
 import useTheme from '@/composables/useTheme'
 import { FeatureV9Item } from '@/types'
 import Featurev9 from './FeatureV9.vue'
+import DarkModeSwitch from './DarkModeSwitch.vue'
 export default {
   components: {
     // Button,
     Featurev9,
+    DarkModeSwitch,
   },
   setup() {
     const theme = useTheme()

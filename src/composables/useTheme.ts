@@ -12,7 +12,7 @@ export default () => {
   }
   watch(
     () => theme.value,
-    (value: AppTheme) => {
+    (_, value: AppTheme) => {
       if (value === 'light') document.body.setAttribute('data-theme', 'dark')
       else document.body.removeAttribute('data-theme')
     }
