@@ -27,7 +27,7 @@ app.use(Cody).mount('#app')
 
 ```vue
 <template>
-  <CodyButton variant="subtle"></CodyButton>
+  <CodyButton variant="subtle">Hello Cody App</CodyButton>
   <FeatureV9 :items="items"></FeatureV9>
 </template>
 
@@ -65,12 +65,12 @@ export default {
 
 ```vue
 <template>
-  <CodyButton variant="subtle" />
+  <CodyButton :variant="variant">Hello Cody App</CodyButton>
   <FeatureV9 :items="items" />
 </template>
 
 <script>
-import { FeatureV9Item } from 'codehouse-maybe-ui'
+import { FeatureV9Item, Variant } from 'codehouse-maybe-ui'
 export default {
     setup() {
          const items: FeatureV9Item[] = [
@@ -92,8 +92,10 @@ export default {
         href: "https://stackoverflow.com/questions/43383498/module-has-no-exported-member-export-interface",
       },
     ];
+    const variant : Variant = 'subtle'
         return {
-            items
+            items,
+            variant
         }
     }
 }
