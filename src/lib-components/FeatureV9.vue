@@ -25,8 +25,16 @@
             >
               <CodyButton
                 :variant="item.buttonVariant"
-                :href="item.href || `#${i}`"
+                v-bind="{
+                  ...(item.href && { href: item.href }),
+                }"
                 size="lg"
+                v-on="{
+                  click:
+                    item.action && !item.href
+                      ? () => item.action && item.action()
+                      : null,
+                }"
               >
                 {{ item.buttonText }}
               </CodyButton>
