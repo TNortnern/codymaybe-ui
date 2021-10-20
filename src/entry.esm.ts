@@ -1,6 +1,7 @@
 import { App, Plugin } from 'vue'
 // Import vue components
 import * as components from '@/lib-components/index'
+export { default as useTheme } from './composables/useTheme'
 export type { Size, Variant, FeatureV9Item } from '@/types'
 // export type { AppTheme } from './composables/useTheme'
 // install function executed by Vue.use()
@@ -17,5 +18,3 @@ export default install
 // To allow individual component use, export components
 // each can be registered via Vue.component()
 export * from '@/lib-components/index'
-
-export * from '@/composables/useTheme'
