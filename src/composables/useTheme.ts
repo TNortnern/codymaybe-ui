@@ -1,5 +1,5 @@
-import { AppTheme } from '../types'
 import { ref, watch } from 'vue'
+export type AppTheme = 'light' | 'dark'
 
 export default () => {
   const theme = ref<AppTheme>('light')
