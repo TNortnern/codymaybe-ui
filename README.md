@@ -39,6 +39,7 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
 
 `FeatureV9`
 
+```html
 <h2>Form Props</h2>
 <table class="styled-table">
     <thead>
@@ -52,15 +53,17 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
     <tbody>
         <tr>
             <td>items</td>
-            <td>Array(FeatureV9Item[])</td>
+            <td>Array ( FeatureV9Item[] )</td>
             <td>() => []</td>
             <td>Feature list to render</td>
         </tr>
     </tbody>
 </table>
+```
 
 `CodyButton`
 
+```html
 <h2>Form Props</h2>
 <table class="styled-table">
     <thead>
@@ -74,13 +77,13 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
     <tbody>
         <tr>
             <td>variant</td>
-            <td>String(Variant)</td>
+            <td>String ( Variant )</td>
             <td>accent</td>
             <td>Variant type the button should render</td>
         </tr>
         <tr>
             <td>size</td>
-            <td>String(Size)</td>
+            <td>String ( Size )</td>
             <td>''</td>
             <td>Size the button should render</td>
         </tr>
@@ -93,3 +96,4 @@ import useTheme from 'codehouse-maybe-ui/src/composables/useTheme'
         <tr>
     </tbody>
 </table>
+```
