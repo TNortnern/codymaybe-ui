@@ -1,4 +1,4 @@
-import { AppTheme } from '@/types'
+import { AppTheme } from '../types'
 import { ref, watch } from 'vue'
 
 export default () => {
